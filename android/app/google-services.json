@@ -1,0 +1,47 @@
+{
+    "project_info": {
+      "project_number": "988670736900",
+      "project_id": "all-government-jobs-31365",
+      "storage_bucket": "all-government-jobs-31365.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:988670736900:android:ec80f47d5c89e363dc1351",
+          "android_client_info": {
+            "package_name": "app.govtjobs.update"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "988670736900-gn7if9pglmunnlsllq970jci3jfjo07b.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "app.govtjobs.update",
+              "certificate_hash": "eb8e35ad8b6db2593351d390dac6f3b1b1d9341e"
+            }
+          },
+          {
+            "client_id": "988670736900-bceukg2v17o8clm0ej1eseki6qcjnomm.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDZH-6VREkUXYepptkiU541HxJq3cJkw_E"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "988670736900-bceukg2v17o8clm0ej1eseki6qcjnomm.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
