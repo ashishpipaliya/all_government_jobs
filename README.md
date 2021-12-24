@@ -1,6 +1,6 @@
 # all_govt_jobs
 
-<img src="preview/logo.jpg" width="100" height="100"/>
+<img src="screenshots/app_logo.png" width="100" height="100"/>
 
 An app to get information about all government jobs of any categories in india only.
 Used GetX package for everything. state management, snackbars, dialogs everything.
@@ -9,8 +9,8 @@ Used GetX package for everything. state management, snackbars, dialogs everythin
 
 ## Preview
 
-| ![](./screenshots/photo_2021-10-21_16-44-18.jpg)   | ![](./screenshots/photo_2021-10-21_16-44-28.jpg)   | ![](./screenshots/photo_2021-10-21_16-44-32.jpg)  |
-| ![](./screenshots/photo_2021-10-21_16-44-36.jpg)   | ![](./screenshots/photo_2021-10-21_16-44-40.jpg)   | ![](./screenshots/photo_2021-10-21_16-44-43.jpg)  |
+| ![](./screenshots/photo_2021-10-21_16-44-18.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-28.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-32.jpg =200x)  |
+| ![](./screenshots/photo_2021-10-21_16-44-36.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-40.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-43.jpg =200x)  |
 
 ## Content
 
