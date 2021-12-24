@@ -38,7 +38,7 @@ class Utils {
   }
 
   static void closeSnackBar() {
-    if (Get.isSnackbarOpen!) {
+    if (Get.isSnackbarOpen) {
       Get.back();
     }
   }

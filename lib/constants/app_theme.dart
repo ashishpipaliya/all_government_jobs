@@ -20,8 +20,8 @@ class AppTheme {
     return ThemeData(
       brightness: Brightness.light,
       primaryColor: AppColor.kPrimaryColor,
-      accentColor: AppColor.kPrimaryColor,
-      buttonColor: AppColor.kPrimaryColor,
+      // accentColor: AppColor.kPrimaryColor,
+      // buttonColor: AppColor.kPrimaryColor,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       appBarTheme: const AppBarTheme(
         color: AppColor.kPrimaryColor,

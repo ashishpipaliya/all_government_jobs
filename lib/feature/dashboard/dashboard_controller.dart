@@ -167,7 +167,7 @@ class DashboardController extends GetxController {
                         stateID: stateId,
                         categoryName: Strings.appName));
               } else {
-                if (Get.isSnackbarOpen!) {
+                if (Get.isSnackbarOpen) {
                   Get.back();
                 }
                 Get.snackbar(Strings.error, Strings.stateQualificationEmpty,

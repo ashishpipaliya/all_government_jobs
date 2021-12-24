@@ -12,7 +12,6 @@ import 'package:all_govt_jobs/constants/app_color.dart';
 import 'package:all_govt_jobs/services/connectivity_manager/connectivity_binding.dart';
 import 'package:all_govt_jobs/utils/app_text_styles.dart';
 import 'package:all_govt_jobs/utils/routes/app_pages.dart';
-// import 'package:native_admob_flutter/native_admob_flutter.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:all_govt_jobs/services/ad_helper.dart';
 
@@ -35,10 +34,6 @@ Future<void> initialSettings() async {
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
-  // OneSignal.shared.setAppId("31981179-c287-454c-b1d7-1e05bd41b32a");
-  // OneSignal.shared.setNotificationOpenedHandler((openedResult) {
-  //   // var data = openedResult.notification.additionalData;
-  // });
 }
 
 class MyApp extends StatelessWidget {
@@ -54,28 +49,30 @@ class MyApp extends StatelessWidget {
 
     FirebaseAnalytics analytics = FirebaseAnalytics();
 
-    return GetMaterialApp(
-      title: 'All Government Jobs',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-          primaryColor: AppColor.white,
-          scaffoldBackgroundColor: AppColor.white,
-          appBarTheme: AppBarTheme(
-              systemOverlayStyle: SystemUiOverlayStyle.dark,
-              centerTitle: true,
-              elevation: 0,
-              color: AppColor.justGrayLight,
-              titleTextStyle:
-                  AppTextStyle.buttonTextStyle.copyWith(fontSize: 20.w),
-              iconTheme: IconThemeData(
-                color: Colors.black,
-              ))),
-      initialBinding: ConnectivityBinding(),
-      getPages: AppPages.pages,
-      initialRoute: Routes.SPLASH,
-      navigatorObservers: [
-        FirebaseAnalyticsObserver(analytics: analytics),
-      ],
+    return Center(
+      child: GetMaterialApp(
+        title: 'All Government Jobs',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+            primaryColor: AppColor.white,
+            scaffoldBackgroundColor: AppColor.white,
+            appBarTheme: AppBarTheme(
+                systemOverlayStyle: SystemUiOverlayStyle.dark,
+                centerTitle: true,
+                elevation: 0,
+                color: AppColor.justGrayLight,
+                titleTextStyle:
+                    AppTextStyle.buttonTextStyle.copyWith(fontSize: 20.w),
+                iconTheme: IconThemeData(
+                  color: Colors.black,
+                ))),
+        initialBinding: ConnectivityBinding(),
+        getPages: AppPages.pages,
+        initialRoute: Routes.DASHBOARD,
+        navigatorObservers: [
+          FirebaseAnalyticsObserver(analytics: analytics),
+        ],
+      ),
     );
   }
 }
