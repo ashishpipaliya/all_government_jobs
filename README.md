@@ -9,13 +9,17 @@ Used GetX package for everything. state management, snackbars, dialogs everythin
 
 ## Preview
 
-| ![](./screenshots/photo_2021-10-21_16-44-18.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-28.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-32.jpg =200x)  |
-| ![](./screenshots/photo_2021-10-21_16-44-36.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-40.jpg =200x)   | ![](./screenshots/photo_2021-10-21_16-44-43.jpg =200x)  |
+<img src="./screenshots/photo_2021-10-21_16-44-18.jpg" width="200"/>
+<img src="./screenshots/photo_2021-10-21_16-44-28.jpg" width="200"/>
+<img src="./screenshots/photo_2021-10-21_16-44-32.jpg" width="200"/>
+<img src="./screenshots/photo_2021-10-21_16-44-36.jpg" width="200"/>
+<img src="./screenshots/photo_2021-10-21_16-44-40.jpg" width="200"/>
+<img src="./screenshots/photo_2021-10-21_16-44-43.jpg" width="200"/>
 
 ## Content
 
-GetX for state management
-Dio for network requests
+- GetX for state management
+- Dio for network requests
 
 
 ## Getting Started With Flutter
